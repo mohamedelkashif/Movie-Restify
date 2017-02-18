@@ -37,14 +37,6 @@ server.post("/search", moviecon.search);
  
 };
 
-// var server = restify.createServer({
-//   name: 'restify.mongoose.movies',
-//   version: '1.0.0'
-// });
-
-// var movies = restifyMongoose(models.Movie);
-// var users = restifyMongoose(models.User);
-
 
 
 
