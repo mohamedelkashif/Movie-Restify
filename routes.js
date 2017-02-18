@@ -24,7 +24,7 @@ server.patch('/movies/:id', movies.update());
 server.del('/movies/:id', movies.remove());
 
 
-server.post("/token", moviecon.token);
+server.post("/login", moviecon.login);
 server.post("/new_user", moviecon.new_user);
 server.post("/ok", moviecon.ok);
 server.post("/search", moviecon.search);

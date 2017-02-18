@@ -14,7 +14,7 @@ function movieController () {
  	var Movie = require('../models').Movie;
 	
 // 	// Creating New Student
- 	this.token = function (req, res) {
+ 	this.login = function (req, res) {
  		 if (req.body.username && req.body.password) {
          var username_ = req.body.username;
          var password_ = req.body.password;
@@ -54,7 +54,7 @@ function movieController () {
 				return err;
 		  }
 		  else {
-		  	res.send("go to /token");
+		  	res.send("go to /login");
 		  }
 		  });
 
