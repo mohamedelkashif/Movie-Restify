@@ -9,7 +9,7 @@ var MovieSchema = new Schema({
   descreption : { type : String, required : true },
   director : { type : String, required : true },
   trailer : { type : String, required : true },
-  comment : { type : String, required : true },
+  comment : { type : String},
   rate:     {type : Number},
   actors : [String]
 });

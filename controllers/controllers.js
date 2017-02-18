@@ -88,7 +88,7 @@ function movieController () {
 					}
 
 				})
-				res.send("found");
+				res.send(found);
 			}else{
 				//Movie Insertion
 				var new_movie = new Movie({
@@ -107,7 +107,7 @@ function movieController () {
 				  else {
 				  	console.log("insert");
 				  }
-				res.send("insert");
+				res.send(new_movie);
 			});
 			}
 			
